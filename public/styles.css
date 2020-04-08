@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+ 
+
+.input-container {
+
+    display: flex;    
+    background-color: #AB00B7;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+
+    
+    
+}
+
+.input-container h1 {
+
+    padding-top: 25px;   
+    margin-left: 550px;
+    color: white;
+
+}
+
+
+.input-container img{
+   
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 75px;
+    height: 75px;
+
+}
+
+.body-container {
+
+    padding: 20px;
+   
+    padding-right: -20px;
+    margin-left: 450px;
+    width: 450px;
+    background-color: #AB00B7;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0 5px 5px;
+
+}
+
+.body-container  input{
+    width: 100%;
+    padding: 8px;
+    font-size: 17px;
+    background: transparent;
+    border-bottom: 100%;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-color: rgba(255, 255, 255, 0.795);
+    color: white;
+    outline: 0;
+   
+}
+
+.body-container ::placeholder {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.801);
+    
+  }
+
+.body-container button {
+
+    margin-top: 20px;
+    padding: 10px;
+    color: #AB00B7;
+    border: none;
+    background-color: none;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.body-container button :hover {
+
+    opacity: 0.8;
+
+}
+
+#app h2{
+
+    margin-bottom: -15px;
+    margin-left: 40px;    
+    font-size: 32px;
+    color:#AB00B7;
+    font-family: 'Do Hyeon', sans-serif;
+    border: none;
+
+}
+
+#app2 h2{
+
+    margin-bottom: -15px;
+    margin-left: 40px;
+    font-size: 32px;
+    color:#AB00B7;
+    font-family: 'Do Hyeon', sans-serif;
+    border: none;
+
+}
+
+
+#app ul li{
+
+    margin-left: 40px;    
+    font-size: 25px;
+    color:#AB00B7;
+    font-family: 'Do Hyeon', sans-serif;
+    border: none;
+
+}
+
+
+#app2 ul li{
+
+    margin-left: 40px;    
+    font-size: 25px;
+    color:#AB00B7;
+    font-family: 'Do Hyeon', sans-serif;
+    border: none;
+    
+}
+
+
+@media only screen and (max-device-width: 640px) {
+    .input-container {
+         
+        height:100%;
+        width:1000px;
+        padding: 75px;
+        
+    
+    } 
+
+    .input-container h1 {
+
+        margin-left: 200px;
+        font-size: 100px;
+
+    
+    }
+
+    .input-container img{
+   
+        padding: 52px;
+        width: 150px;
+        height: 150px;
+        margin-left: -30px;
+        margin-top: -7px;
+    
+    }
+
+    .body-container  input{
+       
+        width: 900px;
+        padding-top : 12px;
+        padding-bottom: 12px;
+        font-size: 15px;
+  
+    }   
+    
+    .body-container{
+        margin-left: 70px;
+        width: 800px;
+        height: 470px;
+        padding: 100px;
+        
+    }
+
+    .body-container button {
+        
+        font-size: 80px;
+        position: relative;
+        top: 100px;
+        width: 700px;
+        height: 300px;
+        border-radius: 10px 10px 10px 10px;    
+    }
+
+    #app h2{
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 150px;
+        
+    }
+    
+    #app2 h2{
+        
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 150px;
+    
+    }
+    
+    
+    #app ul li{
+    
+       
+        margin-left: 220px;
+        font-size: 32px;
+        
+    
+    }
+    
+    
+    #app2 ul li{
+    
+        
+        font-size: 32px;
+        margin-left: 220px;
+        
+    }
+    
+
+    }
+@media only screen and (max-device-width: 900px) {
+      .main { width:600px; } 
+   } 
+@media only screen and (max-device-width: 700px) {
+     .main { width:400px; } 
+  }
